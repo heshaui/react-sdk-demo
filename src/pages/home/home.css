@@ -1,0 +1,47 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+* {
+    box-sizing: inherit;
+}
+#root {
+    height: 100%;
+    padding: 20px;
+    background: #f0f0f0;
+}
+.coinBox {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 40px;
+    color: #999;
+}
+.tag{
+    padding: 3px;
+    color: #fff;
+    background: #007bff99;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.show {
+    display: inline-block;
+}
+.hide {
+    display: none;
+}
+.coinBox button{
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    background: #007bff99;
+    color: #fff;
+}
